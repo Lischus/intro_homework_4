@@ -1,0 +1,78 @@
+/* I chose the font style that I did because I felt it was the most similar to the second series logo */
+
+/* I chose to use a  blue background with white text as an inversion of the Community logo*/
+
+:root {
+  font-size: 13px;
+}
+
+body {
+  background-color: #080e5c;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #e0dede;
+}
+
+#heading_one {
+  text-align: center;
+  color: #e0dede;
+}
+
+.heading_two {
+  text-align: center;
+  color: #e0dede;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 300px;
+}
+
+nav {
+  text-align: center;
+}
+
+.links {
+  margin-right: 2em;
+}
+
+a:link {
+  color: rgb(248, 102, 11);
+}
+
+a:visited {
+  color: rgb(255, 0, 179);
+}
+
+a:hover {
+  color: rgb(128, 119, 0);
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+nav,
+main,
+footer {
+  font-size: 1.3em;
+  /* 20.8px */
+}
+
+#heading_one,
+.heading_two {
+  font-size: 3rem;
+  /* 48px */
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
